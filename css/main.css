@@ -24,6 +24,10 @@
     position: relative;
 }
 
+.sub-navbar {
+    background-color: white;
+}
+
 b {
     font-family: Gotham-Bold;
 }
@@ -37,8 +41,22 @@ b {
     min-height: 350px;
 }
 
+.banner-no-background {
+    min-height: unset;
+}
+
 .banner-homepage {
     background-image: url("../images/banner-homepage.png");
+}
+
+.banner-history {
+    background-image: url("../images/banner-turbine.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 200px;
+
 }
 
 .material-icons {
@@ -132,6 +150,10 @@ b {
     flex-direction: column;
 }
 
+.history {
+    padding: 20px 0 20px 0;
+}
+
 .our-team-content {
     display: flex;
     flex-direction: column;
@@ -214,6 +236,7 @@ b {
 
 .text-column h1 {
     font-size: 1.3rem;
+    text-align: center;
     font-family: Gotham-Bold;
 }
 
@@ -584,6 +607,10 @@ b {
         width: 49%;
     }
 
+    .banner-history {
+        min-height: 350px;
+    }
+
     .banner-homepage {
         min-height: 560px;
     }
@@ -624,6 +651,10 @@ b {
         width: 90%;
     }
 
+    .history {
+        padding: 20px 0 20px 0;
+    }
+
     .home-image-box {
         flex-direction: row;
         padding: 40px 20px 40px 20px;
@@ -638,7 +669,7 @@ b {
     }
 
     .our-team-image-column img {
-        width: unset;
+        width: 134px;
         padding-bottom: unset;
     }
 
@@ -745,6 +776,10 @@ b {
         width: 80%;
     }
 
+    .history {
+        padding: 30px 0 30px 0;
+    }
+
     .text-column h1 {
         font-size: 1.3rem;
     }
@@ -799,6 +834,10 @@ b {
 
     .contact {
         padding: 100px 0 120px 0;
+    }
+
+    .banner-history {
+        min-height: 375px;
     }
 }
 
