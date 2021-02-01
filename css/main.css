@@ -24,6 +24,10 @@
     position: relative;
 }
 
+b {
+    font-family: Gotham-Bold;
+}
+
 .banner {
     background-position: center;
     background-repeat: no-repeat;
@@ -33,20 +37,8 @@
     min-height: 350px;
 }
 
-.banner-outback {
-    background-image: url("../images/outback.png");
-}
-
-.banner-contact {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/address.png");
-}
-
-.banner-solar {
-    background-image: url("../images/Home-banner.jpg");
-}
-
-.banner-offerings {
-    background-image: url("../images/Offering-banner.jpg");
+.banner-homepage {
+    background-image: url("../images/banner-homepage.png");
 }
 
 .material-icons {
@@ -68,8 +60,7 @@
 .banner-text {
     text-align: center;
     margin: auto;
-    color: white;
-    justify-content: center;
+    color: #434f58;
 }
 
 .banner-text h1 {
@@ -97,24 +88,25 @@
     display: block;
     width: 75px;
     text-transform: uppercase;
-    color: #fff;
+    color: #434f58;
     text-decoration: none;
     margin: 0 auto;
     font-size: 0.5rem;
 }
 
 .btn-sub {
-    font-family: Gotham-Light;
+    font-family: Gotham-Bold;
+    color: #fff;
 }
 
 .btn:hover, :focus, :checked {
     background: rgba(0, 0, 0, 0.3);
     color: #fff;
+
 }
 
 .active {
     background: rgba(0, 0, 0, 0.3);
-    color: #fff;
 }
 
 .dropdown-menu {
@@ -124,6 +116,7 @@
     color: #b6afad;
     background: rgba(0, 0, 0, 0.3);
 }
+
 
 .dropdown-item {
     text-align: center;
@@ -498,7 +491,7 @@
     margin-left: auto;
     margin-right: auto;
     align-self: flex-start;
-    border-bottom: 2px solid #b6afad;
+    border-bottom: 2px solid #7c7c7c;
     flex-direction: column;
 }
 
@@ -571,8 +564,8 @@
         width: 49%;
     }
 
-    .banner-outback {
-        min-height: 456px;
+    .banner-homepage {
+        min-height: 560px;
     }
 
     .banner-offerings {
@@ -694,13 +687,17 @@
         width: 60%;
     }
 
+    .banner-text {
+        padding-bottom: 70px;
+    }
+
     .banner-text h1 {
-        margin-bottom: 2.5rem;
+        margin-bottom: 0.5rem;
         font-size: 2.812rem;
     }
 
     .banner-text h3 {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 
     .quote {
@@ -763,7 +760,6 @@
     .content-block {
         width: 70%;
     }
-
 
     .contact {
         padding: 100px 0 120px 0;
