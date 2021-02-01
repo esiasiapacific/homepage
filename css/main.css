@@ -24,6 +24,10 @@
     position: relative;
 }
 
+b {
+    font-family: Gotham-Bold;
+}
+
 .banner {
     background-position: center;
     background-repeat: no-repeat;
@@ -33,20 +37,8 @@
     min-height: 350px;
 }
 
-.banner-outback {
-    background-image: url("../images/outback.png");
-}
-
-.banner-contact {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/address.png");
-}
-
-.banner-solar {
-    background-image: url("../images/Home-banner.jpg");
-}
-
-.banner-offerings {
-    background-image: url("../images/Offering-banner.jpg");
+.banner-homepage {
+    background-image: url("../images/banner-homepage.png");
 }
 
 .material-icons {
@@ -68,13 +60,12 @@
 .banner-text {
     text-align: center;
     margin: auto;
-    color: white;
-    justify-content: center;
+    color: #434f58;
+    padding-bottom: 120px;
 }
 
 .banner-text h1 {
     font-size: 1.562rem;
-    margin-bottom: 1.5rem;
     font-family: Gotham-Light;
 }
 
@@ -97,24 +88,25 @@
     display: block;
     width: 75px;
     text-transform: uppercase;
-    color: #fff;
+    color: #434f58;
     text-decoration: none;
     margin: 0 auto;
     font-size: 0.5rem;
 }
 
 .btn-sub {
-    font-family: Gotham-Light;
+    font-family: Gotham-Bold;
+    color: #fff;
 }
 
 .btn:hover, :focus, :checked {
     background: rgba(0, 0, 0, 0.3);
     color: #fff;
+
 }
 
 .active {
     background: rgba(0, 0, 0, 0.3);
-    color: #fff;
 }
 
 .dropdown-menu {
@@ -124,6 +116,7 @@
     color: #b6afad;
     background: rgba(0, 0, 0, 0.3);
 }
+
 
 .dropdown-item {
     text-align: center;
@@ -179,14 +172,35 @@
     padding: 30px 10px 30px 10px;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    align-items: center;
 }
 
 .home-image {
     padding: 10px 10px 10px 10px;
+    text-align: center;
     width: 80%;
+    min-width: 161px;
+}
+
+.home-image p {
+    font-family: Gotham-Book;
+    color: black;
+    font-size: 1rem;
+    margin-bottom: unset;
+}
+
+.home-image h3 {
+    font-family: Gotham-Bold;
+    color: #02a7d4;
+    font-size: 2rem;
+}
+
+.home-image img {
+    height: 141px;
+    margin-bottom: 10px;
+
 }
 
 .contact-box {
@@ -223,7 +237,7 @@
 }
 
 .contact {
-    background: #273a43;
+    background: #02a7d4;
     padding: 30px 0;
     color: #fff;
 }
@@ -448,7 +462,6 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    background: #273a43;
     padding: 30px 0;
     color: #fff;
     display: flex;
@@ -466,7 +479,7 @@
 }
 
 .footer-background {
-    background: #172227;
+    background: #434f58;
     text-align: left;
     font-size: .687rem;
     padding: 20px 0;
@@ -498,7 +511,7 @@
     margin-left: auto;
     margin-right: auto;
     align-self: flex-start;
-    border-bottom: 2px solid #b6afad;
+    border-bottom: 2px solid #7c7c7c;
     flex-direction: column;
 }
 
@@ -571,8 +584,8 @@
         width: 49%;
     }
 
-    .banner-outback {
-        min-height: 456px;
+    .banner-homepage {
+        min-height: 560px;
     }
 
     .banner-offerings {
@@ -586,8 +599,8 @@
     }
 
     .btn {
-        width: 125px;
-        font-size: 0.75rem;
+        width: 100px;
+        font-size: 0.7rem;
     }
 
     .dropdown-menu {
@@ -614,6 +627,10 @@
     .home-image-box {
         flex-direction: row;
         padding: 40px 20px 40px 20px;
+    }
+
+    .home-image {
+        width: 50%;
     }
 
     .our-team-content {
@@ -686,6 +703,14 @@
         margin-right: unset;
     }
 
+    .home-image {
+        width: 25%;
+    }
+
+    .home-image h3 {
+        font-size: 1.5rem;
+    }
+
     .contact-page-box {
         width: 25%;
     }
@@ -694,13 +719,17 @@
         width: 60%;
     }
 
+    .banner-text {
+        padding-bottom: 70px;
+    }
+
     .banner-text h1 {
-        margin-bottom: 2.5rem;
+        margin-bottom: 0.5rem;
         font-size: 2.812rem;
     }
 
     .banner-text h3 {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 
     .quote {
@@ -764,6 +793,9 @@
         width: 70%;
     }
 
+    .home-image h3 {
+        font-size: 1.75rem;
+    }
 
     .contact {
         padding: 100px 0 120px 0;
