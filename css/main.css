@@ -236,6 +236,7 @@ b {
 
 .text-column h1 {
     font-size: 1.3rem;
+    text-align: center;
     font-family: Gotham-Bold;
 }
 
