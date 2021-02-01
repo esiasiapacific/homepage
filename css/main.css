@@ -61,11 +61,11 @@ b {
     text-align: center;
     margin: auto;
     color: #434f58;
+    padding-bottom: 80px;
 }
 
 .banner-text h1 {
     font-size: 1.562rem;
-    margin-bottom: 1.5rem;
     font-family: Gotham-Light;
 }
 
@@ -579,8 +579,8 @@ b {
     }
 
     .btn {
-        width: 125px;
-        font-size: 0.75rem;
+        width: 100px;
+        font-size: 0.7rem;
     }
 
     .dropdown-menu {
