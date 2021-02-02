@@ -60,7 +60,7 @@ b {
 }
 
 .material-icons {
-    color: #71b6d5
+    color: #71b6d5;
 }
 
 .icon-row {
@@ -104,12 +104,12 @@ b {
     font-family: Gotham-Bold;
     transition: background .3s linear;
     display: block;
-    width: 75px;
+    width: 60px;
     text-transform: uppercase;
     color: #434f58;
     text-decoration: none;
     margin: 0 auto;
-    font-size: 0.5rem;
+    font-size: 0.4rem;
 }
 
 .btn-sub {
@@ -199,6 +199,21 @@ b {
     align-items: center;
 }
 
+.investor-image-box {
+    justify-content: center;
+}
+
+.investor-image {
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    width: 80%;
+    min-width: 250px;
+}
+
+.investor-image img {
+    width: 80%;
+}
+
 .home-image {
     padding: 10px 10px 10px 10px;
     text-align: center;
@@ -216,13 +231,12 @@ b {
 .home-image h3 {
     font-family: Gotham-Bold;
     color: #02a7d4;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .home-image img {
     height: 141px;
     margin-bottom: 10px;
-
 }
 
 .contact-box {
@@ -235,28 +249,28 @@ b {
 }
 
 .text-column h1 {
-    font-size: 1.3rem;
-    text-align: center;
+    font-size: 1rem;
+    text-align: justify;
     font-family: Gotham-Bold;
 }
 
 .text-column h2 {
-    font-size: 1.3rem;
+    font-size: 1rem;
     padding: 15px 0 15px 0;
     font-family: Gotham-Bold;
-    text-align: center;
+    text-align: justify;
 }
 
 .text-column h3 {
-    font-size: 1rem;
+    font-size: 0.85rem;
     font-family: Gotham-Bold;
-    text-align: center;
+    text-align: justify;
 }
 
 .text-column p, .unordered-list p {
-    font-size: 1rem;
+    font-size: 0.85rem;
     font-family: Gotham-Book;
-    text-align: center;
+    text-align: justify;
 }
 
 .contact {
@@ -660,6 +674,11 @@ b {
         padding: 40px 20px 40px 20px;
     }
 
+    .investor-image {
+        padding: 10px 20px 10px 20px;
+        width: 50%;
+    }
+
     .home-image {
         width: 50%;
     }
@@ -686,7 +705,6 @@ b {
     }
 
     .text-column h1 {
-        text-align: left;
         font-size: 1.2rem;
     }
 
@@ -695,12 +713,10 @@ b {
     }
 
     .text-column h3 {
-        text-align: left;
         font-size: 1.1rem;
     }
 
     .text-column p, .unordered-list p {
-        text-align: left;
         font-size: 1.1rem;
     }
 
@@ -732,6 +748,14 @@ b {
         align-self: flex-start;
         margin-left: unset;
         margin-right: unset;
+    }
+
+    .investor-image {
+        width: 33%;
+    }
+
+    .investor-image img {
+        width: 75%;
     }
 
     .home-image {
@@ -826,10 +850,6 @@ b {
 
     .content-block {
         width: 70%;
-    }
-
-    .home-image h3 {
-        font-size: 1.75rem;
     }
 
     .contact {
