@@ -199,6 +199,21 @@ b {
     align-items: center;
 }
 
+.investor-image-box {
+    justify-content: center;
+}
+
+.investor-image {
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    width: 80%;
+    min-width: 250px;
+}
+
+.investor-image img {
+    width: 80%;
+}
+
 .home-image {
     padding: 10px 10px 10px 10px;
     text-align: center;
@@ -222,7 +237,6 @@ b {
 .home-image img {
     height: 141px;
     margin-bottom: 10px;
-
 }
 
 .contact-box {
@@ -660,6 +674,11 @@ b {
         padding: 40px 20px 40px 20px;
     }
 
+    .investor-image {
+        padding: 10px 20px 10px 20px;
+        width: 50%;
+    }
+
     .home-image {
         width: 50%;
     }
@@ -732,6 +751,14 @@ b {
         align-self: flex-start;
         margin-left: unset;
         margin-right: unset;
+    }
+
+    .investor-image {
+        width: 33%;
+    }
+
+    .investor-image img {
+        width: 75%;
     }
 
     .home-image {
