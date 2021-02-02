@@ -56,7 +56,15 @@ b {
     background-size: cover;
     position: relative;
     min-height: 200px;
+}
 
+.banner-contact {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/banner-contact.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 200px;
 }
 
 .material-icons {
@@ -75,11 +83,18 @@ b {
     justify-content: space-between;
 }
 
+
 .banner-text {
     text-align: center;
     margin: auto;
     color: #434f58;
     padding-bottom: 120px;
+    width: 90%;
+}
+
+.banner-text-contact {
+    color: white;
+    padding: unset;
 }
 
 .banner-text h1 {
@@ -133,6 +148,7 @@ b {
     min-width: unset;
     color: #b6afad;
     background: rgba(0, 0, 0, 0.3);
+    z-index: 1000;
 }
 
 
@@ -625,6 +641,10 @@ b {
         min-height: 350px;
     }
 
+    .banner-contact {
+        min-height: 350px;
+    }
+
     .banner-homepage {
         min-height: 560px;
     }
@@ -776,6 +796,10 @@ b {
 
     .banner-text {
         padding-bottom: 70px;
+    }
+
+    .banner-text-contact {
+        padding: unset;
     }
 
     .banner-text h1 {
