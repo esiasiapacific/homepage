@@ -67,6 +67,15 @@ b {
     min-height: 200px;
 }
 
+.banner-technology {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../images/banner-technology-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 300px;
+}
+
 .material-icons {
     color: #71b6d5;
 }
@@ -261,7 +270,6 @@ b {
 }
 
 .text-column {
-    padding: 0 0 10px 0
 }
 
 .text-column h1 {
@@ -284,9 +292,24 @@ b {
 }
 
 .text-column p, .unordered-list p {
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     font-family: Gotham-Book;
     text-align: justify;
+}
+
+.text-column img {
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    padding: 10px 0 15px 0;
+}
+
+.text-column h4 {
+    color: #02a7d4;
+    font-size: 1.05rem;
+    text-align: justify;
+    font-family: Gotham-Bold;
 }
 
 .contact {
@@ -645,6 +668,10 @@ b {
         min-height: 350px;
     }
 
+    .banner-technology {
+        min-height: 428px;
+    }
+
     .banner-homepage {
         min-height: 560px;
     }
@@ -721,7 +748,7 @@ b {
     }
 
     .text-column {
-        padding: 0 0 30px 40px
+        padding: 0 0 30px 0
     }
 
     .text-column h1 {
@@ -738,6 +765,14 @@ b {
 
     .text-column p, .unordered-list p {
         font-size: 1.1rem;
+    }
+
+    .text-column img {
+        padding: 20px 0 40px 0;
+    }
+
+    .text-column h4 {
+        font-size: 1.4rem;
     }
 
     .contact {
@@ -829,19 +864,24 @@ b {
     }
 
     .text-column h1 {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
+        padding-bottom: 10px;
     }
 
     .text-column h2 {
-        font-size: 1.3rem;
+        font-size: 1.7rem;
     }
 
     .text-column h3 {
-        font-size: 1.1rem;
+        font-size: 1.3rem;
     }
 
     .text-column p, .unordered-list p {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
+    }
+
+    .text-column h4 {
+        font-size: 1.9rem;
     }
 
     .contact-us-link {
