@@ -76,6 +76,15 @@ b {
     min-height: 300px;
 }
 
+.banner-applications {
+    background-image: url("../images/banner-applications.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 200px;
+}
+
 .material-icons {
     color: #71b6d5;
 }
@@ -104,6 +113,11 @@ b {
 .banner-text-contact {
     color: white;
     padding: unset;
+}
+
+.banner-text-applications {
+    padding-bottom: unset;
+    padding: 15px 0 15px 0;
 }
 
 .banner-text h1 {
@@ -672,6 +686,10 @@ b {
         min-height: 428px;
     }
 
+    .banner-applications {
+        min-height: 428px;
+    }
+
     .banner-homepage {
         min-height: 560px;
     }
@@ -831,6 +849,11 @@ b {
 
     .banner-text {
         padding-bottom: 70px;
+    }
+
+    .banner-text-applications {
+        padding-bottom: unset;
+        padding: 20px 0 20px 0;
     }
 
     .banner-text-contact {
