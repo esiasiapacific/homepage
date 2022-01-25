@@ -620,7 +620,7 @@ b {
 
 .navbar-logo {
     width: 80%;
-    max-width: 332px;
+    max-width: 232px;
 }
 
 @media (min-width: 768px) {
@@ -848,6 +848,7 @@ b {
     }
 
     .banner-text {
+        margin-top: 35px;
         padding-bottom: 70px;
     }
 
