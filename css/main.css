@@ -46,7 +46,7 @@ b {
 }
 
 .banner-homepage {
-    background-image: url("../images/banner-homepage.png");
+    background-image: url("../images/Home-Header-Image.jpg");
 }
 
 .banner-history {
@@ -103,11 +103,11 @@ b {
 
 
 .banner-text {
-    text-align: center;
+    text-align: left;
     margin: auto;
-    color: #434f58;
+    color: #ffffff;
     padding-bottom: 120px;
-    width: 90%;
+    width: 80%;
 }
 
 .banner-text-contact {
@@ -144,7 +144,7 @@ b {
     display: block;
     width: 60px;
     text-transform: uppercase;
-    color: #434f58;
+    color: #ffffff;
     text-decoration: none;
     margin: 0 auto;
     font-size: 0.4rem;
@@ -691,7 +691,7 @@ b {
     }
 
     .banner-homepage {
-        min-height: 560px;
+        min-height: 360px;
     }
 
     .banner-offerings {
