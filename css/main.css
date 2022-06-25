@@ -48,6 +48,9 @@ b {
 .banner-homepage {
     background-image: url("../images/Home-Header-Image.jpg");
 }
+.banner-about {
+    background-image: url("../images/About-Us-Header-Image.jpg");
+}
 
 .banner-history {
     background-image: url("../images/banner-turbine.png");
@@ -710,7 +713,7 @@ b {
     }
 
     .dropdown-menu {
-        width: 125px;
+        width: 150px;
     }
 
     .banner-text h1 {
@@ -809,7 +812,7 @@ b {
     }
 
     .btn {
-        width: 125px;
+        width: 150px;
         font-size: 0.8rem;
     }
 

@@ -1,0 +1,51 @@
+<nav class="navbar navbar-expand-lg">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link btn" href="/">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link btn" href="/about" data-toggle="dropdown">
+                About Us
+            </a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item btn btn-sub" href="/board">Board</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item btn btn-sub" href="/senior">Senior Mangement</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item btn btn-sub" href="/environment">Environment, Social and Governance</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item btn btn-sub" href="/careers">Careers</a>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link btn" href="/" data-toggle="dropdown">
+                Products &amp; services
+            </a>
+            <div class="dropdown-menu">
+                <a class="nav-link btn" href="/technology">Technology</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item btn btn-sub" href="/applications">Applications</a>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link btn" href="/" data-toggle="dropdown">
+                Operations
+            </a>
+            <div class="dropdown-menu">
+                <a class="nav-link btn" href="/maryborough">Maryborough</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item btn btn-sub" href="/townsville">Townsville</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item btn btn-sub" href="/randd">Research and development</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item btn btn-sub" href="/partners">Partners</a>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link btn" href="/news">News and media</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link btn" href="/contact">Contact</a>
+        </li>
+    </ul>
+</nav>
