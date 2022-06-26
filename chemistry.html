@@ -62,18 +62,28 @@
        Products &amp; services
       </a>
       <div class="dropdown-menu">
-       <a class="nav-link btn" href="/technology">
-        Technology
+       <a class="nav-link btn" href="/introduction">
+        Introduction
        </a>
        <div class="dropdown-divider">
        </div>
-       <a class="dropdown-item btn btn-sub" href="/applications">
-        Applications
+       <a class="nav-link btn" href="/transition">
+        Energy Transition
+       </a>
+       <div class="dropdown-divider">
+       </div>
+       <a class="nav-link btn" href="/chemistry">
+        Chemistry
+       </a>
+       <div class="dropdown-divider">
+       </div>
+       <a class="nav-link btn" href="/solutions">
+        Solutions
        </a>
       </div>
      </li>
      <li class="nav-item">
-      <a class="nav-link btn" data-toggle="dropdown" href="/">
+      <a class="nav-link btn" data-toggle="dropdown" href="/operations">
        Operations
       </a>
       <div class="dropdown-menu">
@@ -84,16 +94,6 @@
        </div>
        <a class="dropdown-item btn btn-sub" href="/townsville">
         Townsville
-       </a>
-       <div class="dropdown-divider">
-       </div>
-       <a class="dropdown-item btn btn-sub" href="/randd">
-        Research and development
-       </a>
-       <div class="dropdown-divider">
-       </div>
-       <a class="dropdown-item btn btn-sub" href="/partners">
-        Partners
        </a>
       </div>
      </li>
@@ -112,7 +112,7 @@
    <div class="banner-text">
     <div class="row">
      <div class="col-md-6">
-        <img alt="ESI Asia Pacific Pty Ltd" src="images/Home-Logo.png"/>
+      <img alt="ESI Asia Pacific Pty Ltd" src="images/Home-Logo.png"/>
      </div>
      <div class="col-md-6">
       <h1>
@@ -125,28 +125,47 @@
    </div>
   </header>
   <main class="content-block">
-    <div class="text-column chemistry-header">
-        <h1>Technology Overveiw</h1>
-    </div>
-    <div class="text-column">
-        <p>The DESS technology chosen is from ESS,Inc (NYSE:GWH) a Portland, US based company, producing an Iron-  Flow battery. The device consists of iron, salt and water chemistry and can _be either deployed in containers or  in a large scale grid connected warehouse.</p>
-    </div>
-
-    <div class="text-column chemistry-header">
-      <h3>Iron Chloride Flow Battery</h3>
-    </div>
-    <div class="text-column">
-        <ul>
-            <li>Also known as Redox Flow Battery (reduction-oxidation)</li>
-            <li>Electrochemical storage device with unlimited charge/discharge cycles</li>
-            <li>Electrical energy drives chemical change in the electrolyte, which flows through electrochemical cell</li>
-        </ul>
-        <p>During charging:</p>
-        <p>\(\ce{Fe^{II}Cl2 + 2e- <-> Fe + 2Cl-}\) -0.44V (negative electrode)</p>
-        <p>\(\ce{2Fe^{II}Cl2 + Cl- <-> 2Fe^{III}Cl3 + 2e-}\) +0.77V (positive electrode)</p>
-          
-        <p>During discharge: 	equations reverse</p>
-        <img src="images/Chemistry.jpg"/>
+   <div class="text-column chemistry-header">
+    <h1>
+     Technology Overveiw
+    </h1>
+   </div>
+   <div class="text-column">
+    <p>
+     The DESS technology chosen is from ESS,Inc (NYSE:GWH) a Portland, US based company, producing an Iron-  Flow battery. The device consists of iron, salt and water chemistry and can _be either deployed in containers or  in a large scale grid connected warehouse.
+    </p>
+   </div>
+   <div class="text-column chemistry-header">
+    <h3>
+     Iron Chloride Flow Battery
+    </h3>
+   </div>
+   <div class="text-column">
+    <ul>
+     <li>
+      Also known as Redox Flow Battery (reduction-oxidation)
+     </li>
+     <li>
+      Electrochemical storage device with unlimited charge/discharge cycles
+     </li>
+     <li>
+      Electrical energy drives chemical change in the electrolyte, which flows through electrochemical cell
+     </li>
+    </ul>
+    <p>
+     During charging:
+    </p>
+    <p>
+     \(\ce{Fe^{II}Cl2 + 2e- &lt;-&gt; Fe + 2Cl-}\) -0.44V (negative electrode)
+    </p>
+    <p>
+     \(\ce{2Fe^{II}Cl2 + Cl- &lt;-&gt; 2Fe^{III}Cl3 + 2e-}\) +0.77V (positive electrode)
+    </p>
+    <p>
+     During discharge: 	equations reverse
+    </p>
+    <img src="images/Chemistry.jpg"/>
+   </div>
   </main>
   <footer>
    <section class="contact">
@@ -180,7 +199,7 @@
    <section class="footer-background">
     <div class="footer navbar-expand-lg navbar">
      <span class="mr-auto">
-      © 2021 All rights reserved.
+      © 2022 All rights reserved.
      </span>
      <a class="footer-icon-container" href="https://twitter.com/ess_info">
       <img class="footer-icon" src="icons/iconfinder_Circled_Twitter_svg_5279123_blue.png"/>
@@ -190,7 +209,7 @@
   </footer>
   <!-- For browsers that do not support MathML: -->
   <script>
-    window.MathJax = {
+   window.MathJax = {
       tex: {
         // inlineMath: [['$', '$'], ['\\(', '\\)']],
         packages: {'[+]': ['mhchem']}
@@ -198,6 +217,7 @@
       loader: {load: ['[tex]/mhchem']},
     };
   </script>
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script async="" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
  </body>
 </html>
