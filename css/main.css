@@ -51,6 +51,20 @@ b {
 .banner-about {
     background-image: url("../images/About-Us-Header-Image.jpg");
 }
+.banner-product {
+    background-image: url("../images/Prod_Serve-Header.jpg");
+}
+.banner-operations {
+    background-image: url("../images/Operations-Page-Header.jpg");
+}
+
+.banner-contactus {
+    background-image: url("../images/Contact-Us-Header.jpg");
+}
+
+.banner-news {
+    background-image: url("../images/News-_-Media-Header.jpg");
+}
 
 .banner-history {
     background-image: url("../images/banner-turbine.png");
@@ -138,6 +152,18 @@ b {
     margin-bottom: 20px;
     text-align: center;
     font-size: 1.3rem;
+}
+
+.environment-text {
+    margin-bottom: 20px;
+}
+
+.environment-header h1 {
+    color: #f78c0d;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .btn {
@@ -329,8 +355,30 @@ b {
     font-family: Gotham-Bold;
 }
 
+.text-column h5 {
+    color: #f78c0d;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-align: justify;
+    font-family: Gotham-Bold;
+}
+
+.chemistry-header h1 {
+    color: #ec1319;
+
+}
+
+.chemistry-header h3 {
+    color: #f78c0d;
+}
+
+.news-header h1 {
+    color: #ec1319;
+
+}
+
 .contact {
-    background: #0091cc;
+    background: #57585c;
     padding: 30px 0;
     color: #fff;
 }
@@ -756,7 +804,7 @@ b {
     }
 
     .our-team-image-column img {
-        width: 134px;
+        width: 125px;
         padding-bottom: unset;
     }
 

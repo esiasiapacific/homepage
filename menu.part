@@ -22,23 +22,23 @@
                 Products &amp; services
             </a>
             <div class="dropdown-menu">
-                <a class="nav-link btn" href="/technology">Technology</a>
+                <a class="nav-link btn" href="/introduction">Introduction</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item btn btn-sub" href="/applications">Applications</a>
+                <a class="nav-link btn" href="/transition">Energy Transition</a>
+                <div class="dropdown-divider"></div>
+                <a class="nav-link btn" href="/chemistry">Chemistry</a>
+                <div class="dropdown-divider"></div>
+                <a class="nav-link btn" href="/solutions">Solutions</a>
             </div>
         </li>
         <li class="nav-item">
-            <a class="nav-link btn" href="/" data-toggle="dropdown">
+            <a class="nav-link btn" href="/operations" data-toggle="dropdown">
                 Operations
             </a>
             <div class="dropdown-menu">
                 <a class="nav-link btn" href="/maryborough">Maryborough</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item btn btn-sub" href="/townsville">Townsville</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item btn btn-sub" href="/randd">Research and development</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item btn btn-sub" href="/partners">Partners</a>
             </div>
         </li>
         <li class="nav-item">
