@@ -22,13 +22,13 @@
                 Products &amp; services
             </a>
             <div class="dropdown-menu">
-                <a class="nav-link btn" href="/introduction">Introduction</a>
+                <a class="dropdown-item btn btn-sub" href="/introduction">Introduction</a>
                 <div class="dropdown-divider"></div>
-                <a class="nav-link btn" href="/transition">Energy Transition</a>
+                <a class="dropdown-item btn btn-sub" href="/transition">Energy Transition</a>
                 <div class="dropdown-divider"></div>
-                <a class="nav-link btn" href="/chemistry">Chemistry</a>
+                <a class="dropdown-item btn btn-sub" href="/chemistry">Chemistry</a>
                 <div class="dropdown-divider"></div>
-                <a class="nav-link btn" href="/solutions">Solutions</a>
+                <a class="dropdown-item btn btn-sub" href="/solutions">Solutions</a>
             </div>
         </li>
         <li class="nav-item">
@@ -36,7 +36,7 @@
                 Operations
             </a>
             <div class="dropdown-menu">
-                <a class="nav-link btn" href="/maryborough">Maryborough</a>
+                <a class="dropdown-item btn btn-sub" href="/maryborough">Maryborough</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item btn btn-sub" href="/townsville">Townsville</a>
             </div>
