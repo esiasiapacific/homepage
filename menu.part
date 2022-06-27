@@ -48,5 +48,5 @@
             <a class="nav-link btn" href="/contact">Contact</a>
         </li>
     </ul>
-    <img src="./images/esi-transparent.png" class="navbar-icon">
+    <img alt="ESI Logo" src="./images/esi-transparent.png" class="navbar-icon">
 </nav>
