@@ -1,46 +1,50 @@
-<nav class="navbar navbar-expand-lg">
-<div class="navbar-bottom">
-    <ul class="navbar-nav">
+<nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-bottom collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 bg-transparent">
+
         <li class="nav-item">
             <a class="nav-link btn" href="/">Home</a>
         </li>
         <li class="nav-item dropdown">
-            <a class="nav-link btn" href="/about" data-toggle="dropdown">
+            <a class="nav-link dropdown-toggle btn" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 About Us
             </a>
-            <div class="dropdown-menu">
-                <a class="dropdown-item btn btn-sub" href="/board">Board</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item btn btn-sub" href="/senior">Senior Mangement</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item btn btn-sub" href="/environment">Environment, Social<br/>and Governance</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item btn btn-sub" href="/careers">Careers</a>
-            </div>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item btn btn-sub" href="/board">Board</a></li>
+                <li><div class="dropdown-divider"></div></li>
+                <li><a class="dropdown-item btn btn-sub" href="/senior">Senior Mangement</a></li>
+                <li><div class="dropdown-divider"></div></li>
+                <li><a class="dropdown-item btn btn-sub" href="/environment">Environment, Social<br/>and Governance</a></li>
+                <li><div class="dropdown-divider"></div></li>
+                <li><a class="dropdown-item btn btn-sub" href="/careers">Careers</a></li>
+            </ul>
         </li>
         <li class="nav-item dropdown">
-            <a class="nav-link btn" href="/introduction" data-toggle="dropdown">
+            <a class="nav-link dropdown-toggle btn" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Products &amp; services
             </a>
-            <div class="dropdown-menu">
-                <a class="dropdown-item btn btn-sub" href="/introduction">Introduction</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item btn btn-sub" href="/transition">Energy Transition</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item btn btn-sub" href="/chemistry">Chemistry</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item btn btn-sub" href="/solutions">Solutions</a>
-            </div>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item btn btn-sub" href="/introduction">Introduction</a></li>
+                <li><div class="dropdown-divider"></div></li>
+                <li><a class="dropdown-item btn btn-sub" href="/transition">Energy Transition</a></li>
+                <li><div class="dropdown-divider"></div></li>
+                <li><a class="dropdown-item btn btn-sub" href="/chemistry">Chemistry</a></li>
+                <li><div class="dropdown-divider"></div></li>
+                <li><a class="dropdown-item btn btn-sub" href="/solutions">Solutions</a></li>
+            </ul>
         </li>
         <li class="nav-item dropdown">
-            <a class="nav-link btn" href="/operations" data-toggle="dropdown">
+            <a class="nav-link dropdown-toggle btn" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Operations
             </a>
-            <div class="dropdown-menu">
-                <a class="dropdown-item btn btn-sub" href="/maryborough">Maryborough</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item btn btn-sub" href="/townsville">Townsville</a>
-            </div>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item btn btn-sub" href="/maryborough">Maryborough</a></li>
+                <li><div class="dropdown-divider"></div></li>             
+                <li><a class="dropdown-item btn btn-sub" href="/townsville">Townsville</a></li>
+            </ul>
         </li>
         <li class="nav-item">
             <a class="nav-link btn" href="/news">News and media</a>
@@ -48,7 +52,9 @@
         <li class="nav-item">
             <a class="nav-link btn" href="/contact">Contact</a>
         </li>
-    </ul>
+        </ul>
     
-</div><img alt="ESI Logo" src="images/header-logo.png" class="img-fluid navbar-icon">
+
+    </div>
+    <img alt="ESI Logo" src="images/header-logo.png" class="img-fluid navbar-icon collapse navbar-collapse">
 </nav>

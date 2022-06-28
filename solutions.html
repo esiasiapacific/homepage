@@ -25,80 +25,118 @@
  </head>
  <body>
   <header class="banner banner-product header">
-   <nav class="navbar navbar-expand-lg">
-    <div class="navbar-bottom">
-     <ul class="navbar-nav">
+   <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+    <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button">
+     <span class="navbar-toggler-icon">
+     </span>
+    </button>
+    <div class="navbar-bottom collapse navbar-collapse" id="navbarSupportedContent">
+     <ul class="navbar-nav me-auto mb-2 mb-lg-0 bg-transparent">
       <li class="nav-item">
        <a class="nav-link btn" href="/">
         Home
        </a>
       </li>
       <li class="nav-item dropdown">
-       <a class="nav-link btn" data-toggle="dropdown" href="/about">
+       <a aria-expanded="false" class="nav-link dropdown-toggle btn" data-bs-toggle="dropdown" href="#" id="navbarDropdown" role="button">
         About Us
        </a>
-       <div class="dropdown-menu">
-        <a class="dropdown-item btn btn-sub" href="/board">
-         Board
-        </a>
-        <div class="dropdown-divider">
-        </div>
-        <a class="dropdown-item btn btn-sub" href="/senior">
-         Senior Mangement
-        </a>
-        <div class="dropdown-divider">
-        </div>
-        <a class="dropdown-item btn btn-sub" href="/environment">
-         Environment, Social
-         <br/>
-         and Governance
-        </a>
-        <div class="dropdown-divider">
-        </div>
-        <a class="dropdown-item btn btn-sub" href="/careers">
-         Careers
-        </a>
-       </div>
+       <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+        <li>
+         <a class="dropdown-item btn btn-sub" href="/board">
+          Board
+         </a>
+        </li>
+        <li>
+         <div class="dropdown-divider">
+         </div>
+        </li>
+        <li>
+         <a class="dropdown-item btn btn-sub" href="/senior">
+          Senior Mangement
+         </a>
+        </li>
+        <li>
+         <div class="dropdown-divider">
+         </div>
+        </li>
+        <li>
+         <a class="dropdown-item btn btn-sub" href="/environment">
+          Environment, Social
+          <br/>
+          and Governance
+         </a>
+        </li>
+        <li>
+         <div class="dropdown-divider">
+         </div>
+        </li>
+        <li>
+         <a class="dropdown-item btn btn-sub" href="/careers">
+          Careers
+         </a>
+        </li>
+       </ul>
       </li>
       <li class="nav-item dropdown">
-       <a class="nav-link btn" data-toggle="dropdown" href="/introduction">
+       <a aria-expanded="false" class="nav-link dropdown-toggle btn" data-bs-toggle="dropdown" href="#" id="navbarDropdown" role="button">
         Products &amp; services
        </a>
-       <div class="dropdown-menu">
-        <a class="dropdown-item btn btn-sub" href="/introduction">
-         Introduction
-        </a>
-        <div class="dropdown-divider">
-        </div>
-        <a class="dropdown-item btn btn-sub" href="/transition">
-         Energy Transition
-        </a>
-        <div class="dropdown-divider">
-        </div>
-        <a class="dropdown-item btn btn-sub" href="/chemistry">
-         Chemistry
-        </a>
-        <div class="dropdown-divider">
-        </div>
-        <a class="dropdown-item btn btn-sub" href="/solutions">
-         Solutions
-        </a>
-       </div>
+       <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+        <li>
+         <a class="dropdown-item btn btn-sub" href="/introduction">
+          Introduction
+         </a>
+        </li>
+        <li>
+         <div class="dropdown-divider">
+         </div>
+        </li>
+        <li>
+         <a class="dropdown-item btn btn-sub" href="/transition">
+          Energy Transition
+         </a>
+        </li>
+        <li>
+         <div class="dropdown-divider">
+         </div>
+        </li>
+        <li>
+         <a class="dropdown-item btn btn-sub" href="/chemistry">
+          Chemistry
+         </a>
+        </li>
+        <li>
+         <div class="dropdown-divider">
+         </div>
+        </li>
+        <li>
+         <a class="dropdown-item btn btn-sub" href="/solutions">
+          Solutions
+         </a>
+        </li>
+       </ul>
       </li>
       <li class="nav-item dropdown">
-       <a class="nav-link btn" data-toggle="dropdown" href="/operations">
+       <a aria-expanded="false" class="nav-link dropdown-toggle btn" data-bs-toggle="dropdown" href="#" id="navbarDropdown" role="button">
         Operations
        </a>
-       <div class="dropdown-menu">
-        <a class="dropdown-item btn btn-sub" href="/maryborough">
-         Maryborough
-        </a>
-        <div class="dropdown-divider">
-        </div>
-        <a class="dropdown-item btn btn-sub" href="/townsville">
-         Townsville
-        </a>
-       </div>
+       <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+        <li>
+         <a class="dropdown-item btn btn-sub" href="/maryborough">
+          Maryborough
+         </a>
+        </li>
+        <li>
+         <div class="dropdown-divider">
+         </div>
+        </li>
+        <li>
+         <a class="dropdown-item btn btn-sub" href="/townsville">
+          Townsville
+         </a>
+        </li>
+       </ul>
       </li>
       <li class="nav-item">
        <a class="nav-link btn" href="/news">
@@ -112,7 +150,7 @@
       </li>
      </ul>
     </div>
-    <img alt="ESI Logo" class="img-fluid navbar-icon" src="images/header-logo.png"/>
+    <img alt="ESI Logo" class="img-fluid navbar-icon collapse navbar-collapse" src="images/header-logo.png"/>
    </nav>
    <div class="banner-text">
     <div class="row">

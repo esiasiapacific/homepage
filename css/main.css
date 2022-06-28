@@ -666,19 +666,6 @@ b {
     right: 3px;
   }
 
-.navbar-brand {
-    align-self: center;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.navbar-nav {
-    flex-direction: row;
-}
-
 .navbar-logo {
     width: 80%;
     max-width: 232px;
