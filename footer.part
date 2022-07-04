@@ -1,0 +1,40 @@
+<footer>
+   <section class="contact">
+    <div class="footer-information">
+     <a class="footer-logo" href="/">
+      <img alt="ESI Asia Pacific Pty Ltd" class="navbar-logo" src="images/ESIAP-Logo-Reversed.png"/>
+     </a>
+     <div class="footer-contacts">
+      <h4 class="contact-text">
+       CONTACT
+      </h4>
+      <div class="icon-row">
+       <i class="material-icons footer-contact-icon">
+        room
+       </i>
+       <p class="ml-2">
+        Brisbane, Australia
+       </p>
+      </div>
+      <div class="icon-row">
+       <i class="material-icons footer-contact-icon">
+        mail
+       </i>
+       <p class="ml-2">
+        info@esiap.com.au
+       </p>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="footer-background">
+    <div class="footer navbar-expand-lg navbar">
+     <span class="mr-auto">
+      © 2022 All rights reserved.
+     </span>
+     <a class="footer-icon-container" href="https://twitter.com/ess_info">
+      <img class="footer-icon" src="icons/iconfinder_Circled_Twitter_svg_5279123_blue.png"/>
+     </a>
+    </div>
+   </section>
+  </footer>
