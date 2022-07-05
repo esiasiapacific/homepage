@@ -727,7 +727,7 @@ b {
     }
 
     .navbar {
-        width: 90%;
+        width: 95%;
     }
 
     .navbar-logo {
@@ -914,6 +914,11 @@ b {
         padding-right: 20px;
     }
 
+    .navbar-expand-lg .navbar-nav .about-us {
+        padding-left: 38px;
+        padding-right: 38px;
+    }
+
     .navbar {
         flex-direction: row;
     }
@@ -1075,6 +1080,10 @@ b {
 }
 
 @media (min-width: 1200px) {
+
+    .navbar {
+        width: 90%;
+    }
 
     .content-block {
         width: 70%;
