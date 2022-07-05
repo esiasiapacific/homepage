@@ -171,12 +171,12 @@ b {
     font-family: Gotham-Bold;
     transition: background .3s linear;
     display: block;
-    width: 60px;
+    width: unset;
     text-transform: uppercase;
     color: #ffffff;
     text-decoration: none;
     margin: 0 auto;
-    font-size: 0.4rem;
+    font-size: 0.9rem;
 }
 
 .btn-sub {
@@ -196,11 +196,16 @@ b {
 
 .dropdown-menu {
     top: 100%;
-    width: 75px;
+    width: 100%;
     min-width: unset;
     color: #b6afad;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.7);
     z-index: 1000;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 
@@ -388,10 +393,12 @@ b {
 
 .home-article {
     margin: auto;
+    margin-top: unset;
 }
 
 .media-video {
     margin: auto;
+    margin-top: 40px;
     width: 480px;
 }
 
@@ -708,7 +715,7 @@ b {
     }
 
     .navbar {
-        width: 80%;
+        width: 90%;
     }
 
     .navbar-logo {
@@ -780,7 +787,7 @@ b {
     }
 
     .dropdown-menu {
-        width: 150px;
+        width: 100%;
     }
 
     .banner-text h1 {
@@ -816,6 +823,10 @@ b {
 
     .home-image {
         width: 50%;
+    }
+
+    .media-video {
+        width: 700px;
     }
 
     .our-team-content .our-team-text-img {
@@ -868,6 +879,15 @@ b {
     .btn {
         width: 150px;
         font-size: 0.8rem;
+    }
+
+    li .btn {
+        width: unset;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .navbar {
@@ -944,6 +964,10 @@ b {
         padding: 30px 0 30px 0;
     }
 
+    .media-video {
+        width: 1000px;
+    }
+
     .our-team-content {
         flex-direction: row;
     }
@@ -1018,6 +1042,7 @@ b {
 
     .content-block {
         width: 70%;
+        max-width: 1000px;
     }
 
     .contact {
