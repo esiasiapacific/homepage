@@ -386,9 +386,17 @@ b {
     color: #f78c0d;
 }
 
+.home-article {
+    margin: auto;
+}
+
+.media-video {
+    margin: auto;
+    width: 480px;
+}
+
 .news-header h1 {
     color: #ec1319;
-
 }
 
 .contact {
