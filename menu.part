@@ -9,7 +9,7 @@
             <a class="nav-link btn" href="/">Home</a>
         </li>
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle btn" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="about-us nav-link dropdown-toggle btn" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 About Us
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -47,7 +47,7 @@
             </ul>
         </li>
         <li class="nav-item">
-            <a class="nav-link btn" href="/news">News and media</a>
+            <a class="nav-link btn" href="https://press.esiap.com.au">News and media</a>
         </li>
         <li class="nav-item">
             <a class="nav-link btn" href="/contact">Contact</a>
