@@ -56,7 +56,7 @@
 
 .sidebar-menu {
     display: block;
-    padding: 10px 30px 10px 30px;
+    padding: 10px 20px 10px 20px;
 }
 
 b {
@@ -149,6 +149,19 @@ b {
     justify-content: space-between;
 }
 
+.banner-logo {
+    display: none;
+    text-align: right;
+    width: 40%;
+    flex: unset
+}
+
+.banner-tagline {
+    width: 100%;
+    flex: unset;
+    padding-left: 30px;
+    padding-top: 10px
+}
 
 .banner-text {
     text-align: left;
@@ -724,6 +737,7 @@ b {
     margin-right: auto;
     align-self: flex-start;
     flex-direction: row;
+    width: 95%;
 }
 
 .navbar-bottom {
@@ -738,7 +752,12 @@ b {
   }
 
 .navbar-logo {
-    width: 80%;
+    width: 100%;
+    max-width: 232px;
+}
+
+.navbar-brand {
+    width: 65%;
     max-width: 232px;
 }
 
@@ -754,6 +773,11 @@ b {
     h3,
     .h3 {
         font-size: 1.4em;
+    }
+
+    .sidebar-menu {
+        display: block;
+        padding: 10px 30px 10px 30px;
     }
 
     .navbar-brand {
@@ -798,6 +822,20 @@ b {
         width: 49%;
     }
 
+    .banner-logo {
+        display: flex;
+        text-align: right;
+        width: 40%;
+        flex: unset
+    }
+
+    .banner-tagline {
+        width: 60%;
+        flex: unset;
+        padding-left: 30px;
+        padding-top: 10px
+    }
+
     .banner-history {
         min-height: 350px;
     }
@@ -838,7 +876,7 @@ b {
     }
 
     .banner-text h1 {
-        font-size: 1.94rem;
+        font-size: 1.9rem;
     }
 
     .banner-text h3 {
