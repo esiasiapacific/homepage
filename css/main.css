@@ -195,9 +195,9 @@ b {
 }
 
 .contact-text {
-    font-family: Gotham-Bold;
-    margin-bottom: 20px;
-    text-align: center;
+    font-family: Gotham-Light;
+    /*margin-bottom: 20px;*/
+    text-align: left;
     font-size: 1.3rem;
 }
 
@@ -698,12 +698,26 @@ b {
 }
 
 .footer-icon-container {
-    align-self: flex-end;
+    align-self: center;
+}
+
+.footer-contacts a, .footer-contacts a h3 {
+    text-decoration: none;
+    color: rgba(255,255,255, 1);
+}
+
+.footer-contacts a h3:hover, :checked {
+    color: rgba(255,255,255, .7);
+}
+
+.footer-contact-us {
+    margin-top: 20px;
 }
 
 .footer-icon {
-    height: 24px;
-    width: 24px;
+    height: 32px;
+    width: 32px;
+    margin-right: 12px;
 }
 
 .footer-background {
@@ -810,12 +824,17 @@ b {
         align-items: flex-start;
     }
 
+    .footer-icon-container {
+        align-self: flex-start;
+    }
+
     .contact-page-box {
         width: 50%;
     }
 
     .contact-text {
         margin-left: 3rem;
+        font-size: 1.5rem;
     }
 
     .contact-form {
@@ -1157,6 +1176,11 @@ b {
     .recent-block .share-block {
         max-width: 60%;
         margin: 0 auto;
+    }
+
+    .contact-text {
+        margin-left: 3rem;
+        font-size: 2rem;
     }
 }
 
