@@ -1,4 +1,4 @@
-const RSS_URL = "https://press.esiap.com.au?format=rss"
+const RSS_URL = "https://cors-anywhere.herokuapp.com/http://press.esiap.com.au?format=rss"
 
 console.log("HHHH")
 headers = {}
