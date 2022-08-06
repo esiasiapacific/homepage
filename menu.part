@@ -1,60 +1,113 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    <a class="navbar-brand" href="/" style="align-self: flex-start"><img class="navbar-logo" src="images/Home-Logo.png" alt="Energy Storage Industries - Asia Pacific"></a>
+    <a onclick="openSidebar()" class="sidebar-menu" aria-expanded="false" aria-label="Toggle navigation" href="#">
+     <span class="navbar-toggler-icon"> </span>
+    </a>
+<!--DESKTOP SIDEBAR-->
     <div class="navbar-bottom collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0 bg-transparent">
-
-        <li class="nav-item">
-            <a class="nav-link btn" href="/">Home</a>
-        </li>
-        <li class="nav-item dropdown">
-            <a class="about-us nav-link dropdown-toggle btn" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                About Us
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item btn btn-sub" href="/board">Board</a></li>
-                <li><div class="dropdown-divider"></div></li>
-                <li><a class="dropdown-item btn btn-sub" href="/senior">Senior Mangement</a></li>
-                <li><div class="dropdown-divider"></div></li>
-                <li><a class="dropdown-item btn btn-sub" href="/environment">Environment, Social<br/>and Governance</a></li>
-                <li><div class="dropdown-divider"></div></li>
-                <li><a class="dropdown-item btn btn-sub" href="/careers">Careers</a></li>
-            </ul>
-        </li>
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle btn" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Products &amp; services
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item btn btn-sub" href="/introduction">Introduction</a></li>
-                <li><div class="dropdown-divider"></div></li>
-                <li><a class="dropdown-item btn btn-sub" href="/transition">Energy Transition</a></li>
-                <li><div class="dropdown-divider"></div></li>
-                <li><a class="dropdown-item btn btn-sub" href="/chemistry">Chemistry</a></li>
-                <li><div class="dropdown-divider"></div></li>
-                <li><a class="dropdown-item btn btn-sub" href="/solutions">Solutions</a></li>
-            </ul>
-        </li>
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle btn" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Operations
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item btn btn-sub" href="/maryborough">Maryborough</a></li>
-                <li><div class="dropdown-divider"></div></li>             
-                <li><a class="dropdown-item btn btn-sub" href="/townsville">Townsville</a></li>
-            </ul>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link btn" href="https://press.esiap.com.au">News and media</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link btn" href="/contact">Contact</a>
-        </li>
-        </ul>
-    
-
+     <ul class="navbar-nav me-auto mb-2 mb-lg-0 bg-transparent">
+      <li class="nav-item">
+       <a class="nav-link btn" href="/">Home</a>
+      </li>
+      <li class="nav-item dropdown">
+       <a aria-expanded="false" class="about-us nav-link dropdown-toggle btn" data-bs-toggle="dropdown" href="#" id="navbarDropdown" role="button">
+        About Us
+       </a>
+       <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+        <li><a class="dropdown-item btn btn-sub" href="/board">Board</a></li>
+        <li><div class="dropdown-divider"></div></li>
+        <li><a class="dropdown-item btn btn-sub" href="/senior">Senior Mangement</a></li>
+        <li><div class="dropdown-divider"></div></li>
+        <li><a class="dropdown-item btn btn-sub" href="/environment">Environment, Social<br/>and Governance</a></li>
+        <li><div class="dropdown-divider"></div></li>
+        <li><a class="dropdown-item btn btn-sub" href="/careers">Careers</a></li>
+       </ul>
+      </li>
+      <li class="nav-item dropdown">
+       <a aria-expanded="false" class="nav-link dropdown-toggle btn" data-bs-toggle="dropdown" href="#" id="navbarDropdown" role="button">
+        Products &amp; services
+       </a>
+       <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+        <li><a class="dropdown-item btn btn-sub" href="/introduction">Introduction</a></li>
+        <li><div class="dropdown-divider"></div></li>
+        <li><a class="dropdown-item btn btn-sub" href="/transition">Energy Transition</a></li>
+        <li><div class="dropdown-divider"></div></li>
+        <li><a class="dropdown-item btn btn-sub" href="/chemistry">Chemistry</a></li>
+        <li><div class="dropdown-divider"></div></li>
+        <li><a class="dropdown-item btn btn-sub" href="/solutions">Solutions</a></li>
+       </ul>
+      </li>
+      <li class="nav-item dropdown">
+       <a aria-expanded="false" class="nav-link dropdown-toggle btn" data-bs-toggle="dropdown" href="#" id="navbarDropdown" role="button">
+        Operations
+       </a>
+       <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+        <li><a class="dropdown-item btn btn-sub" href="/maryborough">Maryborough</a></li>
+        <li><div class="dropdown-divider"></div></li>
+        <li><a class="dropdown-item btn btn-sub" href="/townsville">Townsville</a></li>
+       </ul>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link btn" href="https://press.esiap.com.au">News and media</a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link btn" href="/contact">Contact</a>
+      </li>
+     </ul>
     </div>
-    <img alt="ESI Logo" src="images/header-logo.png" class="img-fluid navbar-icon collapse navbar-collapse">
-</nav>
+<!--    MOBILE SIDEBAR HERE-->
+    <div id="mobileSidebar" class="sidebar">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 bg-transparent">
+       <li class="nav-item">
+        <a class="nav-link btn" href="/">Home</a>
+       </li>
+       <li class="nav-item dropdown">
+        <a aria-expanded="false" class="about-us nav-link dropdown-toggle btn" data-bs-toggle="dropdown" href="#" id="navbarDropdown" role="button">
+         About Us
+        </a>
+        <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+         <li><a class="dropdown-item btn btn-sub" href="/board">Board</a></li>
+         <li><div class="dropdown-divider"></div></li>
+         <li><a class="dropdown-item btn btn-sub" href="/senior">Senior Mangement</a></li>
+         <li><div class="dropdown-divider"></div></li>
+         <li><a class="dropdown-item btn btn-sub" href="/environment">Environment, Social<br/>and Governance</a></li>
+         <li><div class="dropdown-divider"></div></li>
+         <li><a class="dropdown-item btn btn-sub" href="/careers">Careers</a></li>
+        </ul>
+       </li>
+       <li class="nav-item dropdown">
+        <a aria-expanded="false" class="nav-link dropdown-toggle btn" data-bs-toggle="dropdown" href="#" id="navbarDropdown" role="button">
+         Products &amp; services
+        </a>
+        <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+         <li><a class="dropdown-item btn btn-sub" href="/introduction">Introduction</a></li>
+         <li><div class="dropdown-divider"></div></li>
+         <li><a class="dropdown-item btn btn-sub" href="/transition">Energy Transition</a></li>
+         <li><div class="dropdown-divider"></div></li>
+         <li><a class="dropdown-item btn btn-sub" href="/chemistry">Chemistry</a></li>
+         <li><div class="dropdown-divider"></div></li>
+         <li><a class="dropdown-item btn btn-sub" href="/solutions">Solutions</a></li>
+        </ul>
+       </li>
+       <li class="nav-item dropdown">
+        <a aria-expanded="false" class="nav-link dropdown-toggle btn" data-bs-toggle="dropdown" href="#" id="navbarDropdown" role="button">
+         Operations
+        </a>
+        <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+         <li><a class="dropdown-item btn btn-sub" href="/maryborough">Maryborough</a></li>
+         <li><div class="dropdown-divider"></div></li>
+         <li><a class="dropdown-item btn btn-sub" href="/townsville">Townsville</a></li>
+        </ul>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link btn" href="https://press.esiap.com.au">News and media</a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link btn" href="/contact">Contact</a>
+       </li>
+      </ul>
+    </div>
+   <div id="blocker" class="page-blocker" onclick="closeSidebar()"></div>
+    <img alt="ESI Logo" class="img-fluid navbar-icon collapse navbar-collapse" src="images/header-logo.png"/>
+   </nav>
+<!--END NAVBAR-->
