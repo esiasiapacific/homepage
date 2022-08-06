@@ -19,6 +19,9 @@
     font-style: normal;
 }
 
+.img-fluid {
+    object-fit: contain;
+}
 
 #wrapper {
     position: relative;
@@ -1032,12 +1035,13 @@ b {
 
     .banner-text {
         margin-top: 35px;
+        margin-bottom: 35px;
         padding-bottom: 70px;
     }
 
     .banner-text-applications {
-        padding-bottom: unset;
         padding: 20px 0 20px 0;
+        padding-bottom: unset;
     }
 
     .banner-text-contact {
@@ -1046,7 +1050,7 @@ b {
 
     .banner-text h1 {
         margin-bottom: 0.5rem;
-        font-size: 2.812rem;
+        font-size: min(3.25vw, 2.812rem);
     }
 
     .banner-text h3 {
