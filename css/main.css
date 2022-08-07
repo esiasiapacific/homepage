@@ -377,11 +377,12 @@ b {
 }
 
 .text-column {
+    padding-bottom: 15px;
 }
 
 .text-column h1 {
     font-size: 1rem;
-    text-align: justify;
+    text-align: left;
     font-family: Gotham-Bold;
 }
 
@@ -428,8 +429,8 @@ b {
 }
 
 .chemistry-header h1 {
-    color: #ec1319;
-
+    /*color: #ec1319;*/
+    color: #f78c0d;
 }
 
 .chemistry-header h3 {
@@ -953,6 +954,10 @@ b {
 
     .our-team-content .our-team-text-img {
         width: 140px;
+    }
+
+    .our-team-image-column-env {
+        margin-right: 45px;
     }
 
     .text-column {
