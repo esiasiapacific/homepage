@@ -459,6 +459,9 @@ b {
     display: none;
 }
 
+.news-feed {
+    margin-top: 30px;
+}
 
 .news-header h1 {
     color: #ec1319;
@@ -1107,6 +1110,10 @@ b {
 
     .media-video {
         width: 1000px;
+    }
+
+    .news-feed {
+        margin-top: 45px;
     }
 
     .our-team-content {
