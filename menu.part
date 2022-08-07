@@ -28,7 +28,7 @@
         Products &amp; services
        </a>
        <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
-        <li><a class="dropdown-item btn btn-sub" href="/introduction">Introduction</a></li>
+        <li><a class="dropdown-item btn btn-sub" href="/our-batteries">Our Batteries</a></li>
         <li><div class="dropdown-divider"></div></li>
         <li><a class="dropdown-item btn btn-sub" href="/transition">Energy Transition</a></li>
         <li><div class="dropdown-divider"></div></li>
@@ -80,7 +80,7 @@
          Products &amp; services
         </a>
         <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
-         <li><a class="dropdown-item btn btn-sub" href="/introduction">Introduction</a></li>
+         <li><a class="dropdown-item btn btn-sub" href="/our-batteries">Our Batteries</a></li>
          <li><div class="dropdown-divider"></div></li>
          <li><a class="dropdown-item btn btn-sub" href="/transition">Energy Transition</a></li>
          <li><div class="dropdown-divider"></div></li>
