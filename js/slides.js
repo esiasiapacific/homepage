@@ -1,12 +1,12 @@
 let sIndex = 1;
-let slides = document.getElementsByClassName("slide-slide");
-let slideDots = document.getElementsByClassName("slide-dot");
+let slides = document.getElementsByClassName("event-slide");
+let slideDots = document.getElementsByClassName("event-dot");
 //
 showSlide(sIndex);
 setInterval(incrementSlide, 7000);
 
 function incrementSlide() {
-    plusSlide(1);
+  plusSlide(1);
 }
 
 function plusSlide(n) {
@@ -26,10 +26,10 @@ function showSlide(n) {
     sIndex = slides.length
   }
   for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
+    slides[i].style.display = "none";
   }
   for (i = 0; i < slideDots.length; i++) {
-      slideDots[i].className = slideDots[i].className.replace(" active", "");
+    slideDots[i].className = slideDots[i].className.replace(" active", "");
   }
 
   slides[sIndex - 1].style.display = "inline-block";

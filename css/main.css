@@ -428,6 +428,11 @@ b {
     font-family: Gotham-Bold;
 }
 
+.news-article {
+    width: 100%;
+    margin: auto;
+}
+
 .chemistry-header h1 {
     /*color: #ec1319;*/
     color: #f78c0d;
@@ -472,6 +477,7 @@ b {
     display: flex;
     flex-direction: row;
     align-items: center;
+    height: min(450px, 40vw);
 }
 
 .prev, .next {
@@ -488,34 +494,44 @@ b {
 }
 
 .banner-button {
-    height: 400px;
+    /*height: 400px;*/
     margin-top: auto;
     margin-bottom: auto;
     z-index: 10;
     background: none;
     color: white;
-    padding-top: 190px;
-    padding-bottom: 190px;
+    /*padding-top: 190px;*/
+    /*padding-bottom: 190px;*/
+}
+
+.banner-button:hover {
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .event-button {
-    height: 350px;
-    padding-top: 165px;
-    padding-bottom: 165px;
+    /*height: 150px;*/
+    /*padding-top: 65px;*/
+    /*padding-bottom: 65px;*/
 }
 
 .slide-container .prev {
     margin-right: -42px;
     color: white;
+    height: 100%;
 }
 
 .slide-container .next {
     margin-left: -42px;
     color: white;
+    height: 100%;
 }
 
 .event-slide {
     width: 350px;
+}
+
+.event-dox-box {
+    margin-top: 0px;
 }
 
 /* The dots/bullets/indicators */
@@ -1052,6 +1068,15 @@ b {
 
     .text-column h4 {
         font-size: 1.4rem;
+    }
+
+    .news-article {
+        width: 80%;
+        margin: auto;
+    }
+
+    .event-dox-box {
+        margin-top: -26px;
     }
 
     .contact {
