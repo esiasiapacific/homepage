@@ -399,10 +399,18 @@ b {
     text-align: justify;
 }
 
-.text-column p, .unordered-list p {
+.text-column p, .unordered-list p, .text-column li {
     font-size: 0.75rem;
     font-family: Gotham-Book;
     text-align: justify;
+}
+
+.tick-list {
+    list-style: none;
+}
+
+.tick-list  li:before {
+    content: "\2713\0020";
 }
 
 .text-column img {
@@ -1058,7 +1066,7 @@ b {
         font-size: 1.1rem;
     }
 
-    .text-column p, .unordered-list p {
+    .text-column p, .unordered-list p, .text-column li {
         font-size: 1.1rem;
     }
 
@@ -1248,7 +1256,7 @@ b {
         font-size: 1.3rem;
     }
 
-    .text-column p, .unordered-list p {
+    .text-column p, .unordered-list p, .text-column li {
         font-size: 1.2rem;
     }
 
