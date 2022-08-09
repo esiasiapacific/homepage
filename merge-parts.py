@@ -8,6 +8,9 @@ with open("menu.part", "r") as m:
 with open("footer.part", "r") as m:
     footer = BeautifulSoup(m.read(), features="lxml").findAll('footer')[0]
 
+with open("banner.part", "r") as m:
+    banner = BeautifulSoup(m.read(), features="lxml").findAll('div', {"class": "banner-text"})[0]
+
 # For all html file in directory
 for html_file in glob.glob("*.html"):
 
@@ -20,5 +23,7 @@ for html_file in glob.glob("*.html"):
             link.replace_with(menu)
         for link in soup.findAll('footer'):
             link.replace_with(footer)
+        for link in soup.findAll('div', {"class": "banner-text"}):
+            link.replace_with(banner)
         # write out raw html to file
         f.write(soup.prettify())

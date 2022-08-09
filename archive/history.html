@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+  <title>
+   History
+  </title>
+  <script defer="" src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+  </script>
+  <script>
+   window.jQuery || document.write('<script src="js/jquery-3.2.1.min.js" defer><\/script>')
+  </script>
+  <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" rel="stylesheet"/>
+  <link href="../css/main.css" rel="stylesheet"/>
+  <script crossorigin="anonymous" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js">
+  </script>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+  <link href="/favicon.png" rel="icon"/>
+ </head>
+ <body>
+  <header class="banner header banner-no-background">
+   <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+    <a class="navbar-brand" href="/" style="align-self: flex-start">
+     <img alt="Energy Storage Industries - Asia Pacific" class="navbar-logo" src="../images/Home-Logo.png"/>
+    </a>
+    <a aria-expanded="false" aria-label="Toggle navigation" class="sidebar-menu" href="#" onclick="openSidebar()">
+     <span class="navbar-toggler-icon">
+     </span>
+    </a>
+    <!--DESKTOP SIDEBAR-->
+    <div class="navbar-bottom collapse navbar-collapse" id="navbarSupportedContent">
+     <ul class="navbar-nav me-auto mb-2 mb-lg-0 bg-transparent">
+      <li class="nav-item">
+       <a class="nav-link btn" href="/">
+        Home
+       </a>
+      </li>
+      <li class="nav-item dropdown">
+       <a aria-expanded="false" class="about-us nav-link dropdown-toggle btn" data-bs-toggle="dropdown" href="#" id="navbarDropdown" role="button">
+        About Us
+       </a>
+       <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+        <li>
+         <a class="dropdown-item btn btn-sub" href="/board">
+          Board
+         </a>
+        </li>
+        <li>
+         <div class="dropdown-divider">
+         </div>
+        </li>
+        <li>
+         <a class="dropdown-item btn btn-sub" href="/senior">
+          Senior Mangement
+         </a>
+        </li>
+        <li>
+         <div class="dropdown-divider">
+         </div>
+        </li>
+        <li>
+         <a class="dropdown-item btn btn-sub" href="/environment">
+          Environment, Social
+          <br/>
+          and Governance
+         </a>
+        </li>
+        <li>
+         <div class="dropdown-divider">
+         </div>
+        </li>
+        <li>
+         <a class="dropdown-item btn btn-sub" href="/careers">
+          Careers
+         </a>
+        </li>
+       </ul>
+      </li>
+      <li class="nav-item dropdown">
+       <a aria-expanded="false" class="nav-link dropdown-toggle btn" data-bs-toggle="dropdown" href="#" id="navbarDropdown" role="button">
+        Products &amp; services
+       </a>
+       <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+        <li>
+         <a class="dropdown-item btn btn-sub" href="/introduction">
+          Introduction
+         </a>
+        </li>
+        <li>
+         <div class="dropdown-divider">
+         </div>
+        </li>
+        <li>
+         <a class="dropdown-item btn btn-sub" href="/transition">
+          Energy Transition
+         </a>
+        </li>
+        <li>
+         <div class="dropdown-divider">
+         </div>
+        </li>
+        <li>
+         <a class="dropdown-item btn btn-sub" href="/chemistry">
+          Chemistry
+         </a>
+        </li>
+        <li>
+         <div class="dropdown-divider">
+         </div>
+        </li>
+        <li>
+         <a class="dropdown-item btn btn-sub" href="/solutions">
+          Solutions
+         </a>
+        </li>
+       </ul>
+      </li>
+      <li class="nav-item dropdown">
+       <a aria-expanded="false" class="nav-link dropdown-toggle btn" data-bs-toggle="dropdown" href="#" id="navbarDropdown" role="button">
+        Operations
+       </a>
+       <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+        <li>
+         <a class="dropdown-item btn btn-sub" href="/maryborough">
+          Maryborough
+         </a>
+        </li>
+        <li>
+         <div class="dropdown-divider">
+         </div>
+        </li>
+        <li>
+         <a class="dropdown-item btn btn-sub" href="/townsville">
+          Townsville
+         </a>
+        </li>
+       </ul>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link btn" href="https://press.esiap.com.au">
+        News and media
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link btn" href="/contact">
+        Contact
+       </a>
+      </li>
+     </ul>
+    </div>
+    <!--    MOBILE SIDEBAR HERE-->
+    <div class="sidebar" id="mobileSidebar">
+     <ul class="navbar-nav me-auto mb-2 mb-lg-0 bg-transparent">
+      <li class="nav-item">
+       <a class="nav-link btn" href="/">
+        Home
+       </a>
+      </li>
+      <li class="nav-item dropdown">
+       <a aria-expanded="false" class="about-us nav-link dropdown-toggle btn" data-bs-toggle="dropdown" href="#" id="navbarDropdown" role="button">
+        About Us
+       </a>
+       <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+        <li>
+         <a class="dropdown-item btn btn-sub" href="/board">
+          Board
+         </a>
+        </li>
+        <li>
+         <div class="dropdown-divider">
+         </div>
+        </li>
+        <li>
+         <a class="dropdown-item btn btn-sub" href="/senior">
+          Senior Mangement
+         </a>
+        </li>
+        <li>
+         <div class="dropdown-divider">
+         </div>
+        </li>
+        <li>
+         <a class="dropdown-item btn btn-sub" href="/environment">
+          Environment, Social
+          <br/>
+          and Governance
+         </a>
+        </li>
+        <li>
+         <div class="dropdown-divider">
+         </div>
+        </li>
+        <li>
+         <a class="dropdown-item btn btn-sub" href="/careers">
+          Careers
+         </a>
+        </li>
+       </ul>
+      </li>
+      <li class="nav-item dropdown">
+       <a aria-expanded="false" class="nav-link dropdown-toggle btn" data-bs-toggle="dropdown" href="#" id="navbarDropdown" role="button">
+        Products &amp; services
+       </a>
+       <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+        <li>
+         <a class="dropdown-item btn btn-sub" href="/introduction">
+          Introduction
+         </a>
+        </li>
+        <li>
+         <div class="dropdown-divider">
+         </div>
+        </li>
+        <li>
+         <a class="dropdown-item btn btn-sub" href="/transition">
+          Energy Transition
+         </a>
+        </li>
+        <li>
+         <div class="dropdown-divider">
+         </div>
+        </li>
+        <li>
+         <a class="dropdown-item btn btn-sub" href="/chemistry">
+          Chemistry
+         </a>
+        </li>
+        <li>
+         <div class="dropdown-divider">
+         </div>
+        </li>
+        <li>
+         <a class="dropdown-item btn btn-sub" href="/solutions">
+          Solutions
+         </a>
+        </li>
+       </ul>
+      </li>
+      <li class="nav-item dropdown">
+       <a aria-expanded="false" class="nav-link dropdown-toggle btn" data-bs-toggle="dropdown" href="#" id="navbarDropdown" role="button">
+        Operations
+       </a>
+       <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+        <li>
+         <a class="dropdown-item btn btn-sub" href="/maryborough">
+          Maryborough
+         </a>
+        </li>
+        <li>
+         <div class="dropdown-divider">
+         </div>
+        </li>
+        <li>
+         <a class="dropdown-item btn btn-sub" href="/townsville">
+          Townsville
+         </a>
+        </li>
+       </ul>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link btn" href="https://press.esiap.com.au">
+        News and media
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link btn" href="/contact">
+        Contact
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div class="page-blocker" id="blocker" onclick="closeSidebar()">
+    </div>
+    <img alt="ESI Logo" class="img-fluid navbar-icon collapse navbar-collapse" src="../images/header-logo.png"/>
+   </nav>
+   <header class="banner-history header">
+    <div class="banner-text">
+     <div class="row">
+      <div class="col banner-logo">
+       <img alt="ESI Asia Pacific Pty Ltd" class="img-fluid" src="../images/Home-Logo.png" style="padding-right: 30px; margin-left: auto"/>
+      </div>
+      <div class="col banner-tagline">
+       <h1>
+        Our renewable
+        <br/>
+        energy future — today
+       </h1>
+      </div>
+     </div>
+    </div>
+   </header>
+  </header>
+ </body>
+</html>
+<main class="content-block history">
+ <div class="text-column">
+  <h1>
+   HISTORY
+  </h1>
+  <p>
+   Established in 2020, ESI Asia Pacific Pty Ltd. manufactures low-cost, long-duration iron flow batteries for commercial and
+            utility-scale energy storage applications requiring 6+ hours of flexible energy capacity. Our long-duration
+            energy storage platforms, the Energy Warehouse™ (EW) and Energy Center (EC), use iron, salt, and water
+            for
+            the electrolyte, and deliver an environmentally safe, long-life energy storage solution for the world's
+            renewable energy infrastructure.
+  </p>
+  <p>
+   Based in Queensland, Australia, we have extensive experience in electricity markets, renewable energy, manufacturing, electrical installations and services and trading in energy markets worldwide. .
+  </p>
+  <p>
+   Our technology delivers environmental and cost advantages. Specifically, our non-corrosive, non-toxic
+            chemistry enables use of off-the-shelf materials. Its non-flammable composition eliminates costly fire
+            suppression systems. Combined with an innovative cell design, our customers benefit from increased power
+            density and reduced O&amp;M cost over our platform's 20+ year lifespan.
+  </p>
+  <p>
+   With its safe, earth-abundant, proven all-iron flow battery technology, ESS is helping project developers,
+            utilities, and EPCs make the transition to more flexible non-lithium-ion storage that is better suited for
+            the grid and the environment.
+  </p>
+ </div>
+</main>
+<footer>
+ <section class="contact">
+  <div class="footer-information">
+   <a class="footer-logo" href="/">
+    <img alt="ESI Asia Pacific Pty Ltd" class="navbar-logo" src="../images/ESIAP-Logo-Reversed.png"/>
+   </a>
+   <div class="footer-contacts">
+    <h4 class="contact-text">
+     CONTACT
+    </h4>
+    <div class="icon-row">
+     <i class="material-icons footer-contact-icon">
+      room
+     </i>
+     <p class="ml-2">
+      Brisbane, Australia
+     </p>
+    </div>
+    <div class="icon-row">
+     <i class="material-icons footer-contact-icon">
+      mail
+     </i>
+     <p class="ml-2">
+      info@esiap.com.au
+     </p>
+    </div>
+   </div>
+  </div>
+ </section>
+ <section class="footer-background">
+  <div class="footer navbar-expand-lg navbar">
+   <span class="mr-auto">
+    © 2022 All rights reserved.
+   </span>
+   <a class="footer-icon-container" href="https://twitter.com/ess_info">
+    <img class="footer-icon" src="../icons/iconfinder_Circled_Twitter_svg_5279123_blue.png"/>
+   </a>
+  </div>
+ </section>
+</footer>
