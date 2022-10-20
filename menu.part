@@ -18,7 +18,7 @@
          <li><div class="dropdown-divider"></div></li>
         <li><a class="dropdown-item btn btn-sub" href="/board">Board</a></li>
         <li><div class="dropdown-divider"></div></li>
-        <li><a class="dropdown-item btn btn-sub" href="/senior">Senior Mangement</a></li>
+        <li><a class="dropdown-item btn btn-sub" href="/senior">Senior Management</a></li>
         <li><div class="dropdown-divider"></div></li>
         <li><a class="dropdown-item btn btn-sub" href="/environment">Environment, Social<br/>and Governance</a></li>
         <li><div class="dropdown-divider"></div></li>
@@ -74,7 +74,7 @@
          <li><div class="dropdown-divider"></div></li>
          <li><a class="dropdown-item btn btn-sub" href="/board">Board</a></li>
          <li><div class="dropdown-divider"></div></li>
-         <li><a class="dropdown-item btn btn-sub" href="/senior">Senior Mangement</a></li>
+         <li><a class="dropdown-item btn btn-sub" href="/senior">Senior Management</a></li>
          <li><div class="dropdown-divider"></div></li>
          <li><a class="dropdown-item btn btn-sub" href="/environment">Environment, Social<br/>and Governance</a></li>
          <li><div class="dropdown-divider"></div></li>
