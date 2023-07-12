@@ -628,6 +628,7 @@ b {
 .bold-link {
     text-decoration: none;
     color: black;
+    font-family: Gotham-Bold;
 }
 
 .bold-link:hover, :checked {
