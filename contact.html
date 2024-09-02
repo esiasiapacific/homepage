@@ -19,11 +19,6 @@
   </script>
   <script async="" defer="" src="https://www.google.com/recaptcha/api.js">
   </script>
-  <script>
-   function onSubmit(token) {
-          document.getElementById("contact-form").submit();
-        }
-  </script>
   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700" rel="stylesheet"/>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
   <link href="/favicon.png" rel="icon"/>
@@ -377,17 +372,6 @@
    </div>
   </div>
   <img alt="mail" src="images/mail-line.png" style="text-align: center"/>
-  <div class="text-column" style="padding: 0 0 0 0">
-   <h2 style="text-align: center">
-    CONTACT FORM
-   </h2>
-  </div>
-  <form action="https://formspree.io/f/mwkwadkq" class="contact-form" id="contact-form" method="POST">
-   <input class="contact-form-sub mr-auto contact-area" name="name" placeholder="Name" required="" type="text"/>
-   <input class="contact-form-sub contact-area" name="_replyto" placeholder="Email" required="" type="email"/>
-   <textarea class="contact-form-main contact-area" id="message" name="message" placeholder="Message" required="" rows="5" type="text"></textarea>
-   <input class="g-recaptcha contact-form-main contact-form-btn" data-callback="onSubmit" data-sitekey="6Lemal0hAAAAABhOr6vrWj3G6jBw1Hbi6omyL3jT" type="submit" value="Send"/>
-  </form>
  </main>
  <footer>
   <section class="contact">
