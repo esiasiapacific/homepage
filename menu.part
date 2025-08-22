@@ -20,8 +20,6 @@
         <li><div class="dropdown-divider"></div></li>
         <li><a class="dropdown-item btn btn-sub" href="/senior">Senior Management</a></li>
         <li><div class="dropdown-divider"></div></li>
-        <li><a class="dropdown-item btn btn-sub" href="/environment">Environment, Social<br/>and Governance</a></li>
-        <li><div class="dropdown-divider"></div></li>
         <li><a class="dropdown-item btn btn-sub" href="/careers">Careers</a></li>
        </ul>
       </li>
@@ -32,12 +30,6 @@
        <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
         <li><a class="dropdown-item btn btn-sub" href="/products">Products &amp; Services</a></li>
          <li><div class="dropdown-divider"></div></li>
-        <li><a class="dropdown-item btn btn-sub" href="/our-batteries">Our Batteries</a></li>
-        <li><div class="dropdown-divider"></div></li>
-        <li><a class="dropdown-item btn btn-sub" href="/transition">Energy Transition</a></li>
-        <li><div class="dropdown-divider"></div></li>
-        <li><a class="dropdown-item btn btn-sub" href="/chemistry">Chemistry</a></li>
-        <li><div class="dropdown-divider"></div></li>
         <li><a class="dropdown-item btn btn-sub" href="/solutions">Solutions</a></li>
        </ul>
       </li>
@@ -76,8 +68,6 @@
          <li><div class="dropdown-divider"></div></li>
          <li><a class="dropdown-item btn btn-sub" href="/senior">Senior Management</a></li>
          <li><div class="dropdown-divider"></div></li>
-         <li><a class="dropdown-item btn btn-sub" href="/environment">Environment, Social<br/>and Governance</a></li>
-         <li><div class="dropdown-divider"></div></li>
          <li><a class="dropdown-item btn btn-sub" href="/careers">Careers</a></li>
         </ul>
        </li>
@@ -87,12 +77,6 @@
         </a>
         <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
          <li><a class="dropdown-item btn btn-sub" href="/products">Products &amp; Services</a></li>
-         <li><div class="dropdown-divider"></div></li>
-         <li><a class="dropdown-item btn btn-sub" href="/our-batteries">Our Batteries</a></li>
-         <li><div class="dropdown-divider"></div></li>
-         <li><a class="dropdown-item btn btn-sub" href="/transition">Energy Transition</a></li>
-         <li><div class="dropdown-divider"></div></li>
-         <li><a class="dropdown-item btn btn-sub" href="/chemistry">Chemistry</a></li>
          <li><div class="dropdown-divider"></div></li>
          <li><a class="dropdown-item btn btn-sub" href="/solutions">Solutions</a></li>
         </ul>
